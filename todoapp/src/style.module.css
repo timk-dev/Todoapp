@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: url(../images/monitor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: url(../gifs/static.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+    width: 45%;
+    margin-top: 6%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.header{
+    text-align: center;
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+    font-size: 2rem;
+    color: green;
+    padding: 20px;
+}
+
+.todoform{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder{
+    color: green;
+}
+
+.todoinput{
+    border-top: solid green 1.5px;
+    border-right: solid green 1.5px;
+    border-bottom: none;
+    border-left: none;
+    background: black;
+    color: green;
+    margin-bottom: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.todobutton{
+    width: 30%;
+    padding: 5px 10px;
+    background: black;
+    border: solid green 1.5px;
+    color: green;
+    cursor: pointer;
+}
+
+.todoitem{
+    margin: auto;
+    padding: 20px;
+    background: black;
+    border-top: solid green 1.5px;
+    border-left: solid green 1.5px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.todoname{
+    color: green;
+}
+
+.deletebutton{
+    width: inherit;
+    padding: 5px 10px;
+    background: black;
+    border: solid green 1.5px;
+    color: green;
+    cursor: pointer;
+}
