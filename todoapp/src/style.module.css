@@ -4,6 +4,7 @@ body{
     background: url(../images/monitor.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-postition: fixed;
 }
 
 .app{
